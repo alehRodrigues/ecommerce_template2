@@ -13,7 +13,7 @@ import { AuthContext } from '../providers/auth';
 export default function Products() {
     React.useEffect(() => {
         const getApiData = async () => {
-            const pf = await API.getProducts;
+            const pf = await API.getProducts();
             console.log('data', pf);
             setFrontProducts(pf);
         };

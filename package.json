@@ -1,42 +1,43 @@
 {
-  "name": "ecommerce_template",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.4.0",
-    "@emotion/styled": "^11.3.0",
-    "@material-ui/core": "^5.0.0-beta.1",
-    "@material-ui/data-grid": "^4.0.0-alpha.34",
-    "@material-ui/icons": "^4.11.2",
-    "@material-ui/styles": "^4.11.4",
-    "bcryptjs": "^2.4.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3"
-  },
-  "scripts": {
-    "start": "BROWSER=google-chrome BROWSER_ARGS=--incognito react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "ecommerce_template",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "dependencies": {
+        "@emotion/react": "^11.4.0",
+        "@emotion/styled": "^11.3.0",
+        "@material-ui/core": "^5.0.0-beta.1",
+        "@material-ui/data-grid": "^4.0.0-alpha.34",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/styles": "^4.11.4",
+        "bcryptjs": "^2.4.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3"
+    },
+    "scripts": {
+        "start": "BROWSER=google-chrome BROWSER_ARGS=--incognito react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }

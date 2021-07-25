@@ -5,7 +5,12 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Logo from '../components/Logo/Logo';
 import NavBar from '../components/NavBar/NavBar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch,
+    HashRouter
+} from 'react-router-dom';
 
 import Admin from '../pages/Admin';
 import Products from '../pages/Products';
@@ -29,7 +34,7 @@ function App() {
         <ThemeProvider theme={mainTheme}>
             <Box bgcolor="primary.main">
                 <Logo />
-                <Router>
+                <HashRouter>
                     <NavBar />
                     <Switch>
                         <Route path="/" exact component={Products} />
@@ -41,7 +46,7 @@ function App() {
                         />
                         <Route path="/user" component={User} />
                     </Switch>
-                </Router>
+                </HashRouter>
             </Box>
         </ThemeProvider>
     );
